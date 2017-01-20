@@ -4,7 +4,8 @@
   "license": "MIT",
   "angular-cli": {},
   "scripts": {
-    "start": "ng serve",
+    "start": "ng serve --host boart.com --port 4200 --live-reload-port 49153 --ssl",
+    "start-dev": "ng serve --host boart-dev.com --port 4200 --live-reload-port 49153 --ssl",
     "lint": "tslint \"src/**/*.ts\"",
     "test": "ng test",
     "pree2e": "webdriver-manager update",
